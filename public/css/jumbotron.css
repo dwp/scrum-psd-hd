@@ -5,10 +5,11 @@ body {
 
 .jumbotron {
   background-color: transparent;
+  height: 520px;
 }
 
 main {
-  background: url(/assets/qacv4.png);
+  background: url(/assets/qacv4_1.png);
   background-size: cover;
 }
 
