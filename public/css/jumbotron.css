@@ -2,3 +2,21 @@
 body {
   padding-top: 3.5rem;
 }
+
+.jumbotron {
+  background-color: transparent;
+}
+
+main {
+  background: url(/assets/qacv4.png);
+  background-size: cover;
+}
+
+.col-md-4 {
+  background-color: rgba(255, 255, 255, 0.80);
+  transition: background-color 0.25s;
+}
+
+.col-md-4:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
