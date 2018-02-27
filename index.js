@@ -3,6 +3,7 @@ const app = express();
 const nunjucks = require('nunjucks');
 
 app.set('view engine', 'html');
+app.use(express.static('public'));
 
 nunjucks.configure('views', {
   autoescape: true,
