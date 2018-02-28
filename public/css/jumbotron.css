@@ -13,6 +13,10 @@ main {
   background-size: cover;
 }
 
+footer {
+  padding: 1em 0;
+}
+
 .col-md-4 {
   background-color: rgba(255, 255, 255, 0.60);
   transition: background-color 0.25s;
@@ -58,4 +62,46 @@ main.listings {
 
 .card-body {
   min-height: 230px;
+}
+
+
+
+.jumbotron.movie-details {
+  margin-bottom: 0;
+}
+
+.jumbotron.movie-details .container {
+  height: 100%;
+  background: rgba(255, 255, 255, 0.50);
+  position:relative;
+}
+
+.jumbotron.movie-details .container h1 {
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.80);
+  font-size: 4em;
+}
+
+.jumbotron.movie-details .container .cert {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 1em;
+  width: 128px;
+  height: 128px;
+  background-size: contain;
+
+}
+
+.cert-12a { background-image: url(/assets/cert_12a.png); }
+.cert-15 { background-image: url(/assets/cert_15.png); }
+.cert-pg { background-image: url(/assets/cert_pg.png); }
+.cert-u { background-image: url(/assets/cert_u.png); }
+
+main.movie-details > .container {
+  background: rgba(255, 255, 255, 0.80);
+}
+
+main.movie-details > .container > .row {
+  padding: 1em;
 }
