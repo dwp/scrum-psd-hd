@@ -26,3 +26,7 @@ main {
   background: rgba(255, 255, 255, 0.70);
   height: 100%;
 }
+
+main.listings {
+  background-image: url(/assets/qacv5-dark.png);
+}
