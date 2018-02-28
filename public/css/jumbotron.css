@@ -35,7 +35,7 @@ footer {
   height: 100%;
 }
 
-main.listings {
+main.listings, main.movie-details {
   background-image: url(/assets/qacv5-dark.png);
   background-size: contain;
   background-repeat: no-repeat;
