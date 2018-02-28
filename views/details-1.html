@@ -1,0 +1,65 @@
+{% extends "layouts/default.html" %}
+
+{% block mainclass %}movie-details{% endblock %}
+
+{% block main %}
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="jumbotron movie-details">
+  <div class="container" style="background-image: url(/assets/PlackPantherFull.jpg);">
+    <h1 class="display-3">[[ movieTitle ]]</h1>
+    <div class="cert cert-15">cert</div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <span class="badge badge-info">Runtime: 2hrs 3 mins</span>
+      <span class="badge badge-success">Director: Guillermo del Toro</span>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <p>
+        From master storyteller Guillermo del Toro comes THE SHAPE OF WATER, an otherworldly fable set against the backdrop of Cold War era America circa 1962. In the hidden high-security government laboratory where she works, lonely Elisa (Sally Hawkins) is trapped in a life of isolation. Elisa's life is changed forever when she and co-worker Zelda (Octavia Spencer) discover a secret classified experiment.
+      </p>
+      <p>
+        <b>Starring:</b>
+Sally Hawkins as Elisa Esposito<br />
+Michael Shannon as Richard Strickland<br />
+Richard Jenkins as Giles<br />
+Octavia Spencer as Zelda Fuller<br />
+Michael Stuhlbarg as Dr. Robert Hoffstetler<br />
+Doug Jones as Amphibian Man<br />
+David Hewlett as Fleming<br />
+Nick Searcy as General Hoyt<br />
+Stewart Arnott as Bernard<br />
+Nigel Bennett as Mihalkov<br />
+Lauren Lee Smith as Elaine Strickland<br />
+Martin Roach as Brewster Fuller<br />
+Allegra Fulton as Yolanda<br />
+John Kapelos as Mr. Arzoumanian<br />
+Morgan Kelly as Pie Guy
+  </p>
+    </div>
+    <div class="col">
+      <p>
+        <b>Show times:</b>
+      </p>
+      <ul>
+        <li>11:15 am</li>
+        <li>2:15 pm</li>
+        <li>5:15 pm</li>
+        <li>8:15 pm</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      
+    </div>
+  </div>
+</div>
+{% endblock %}
