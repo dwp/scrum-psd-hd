@@ -18,6 +18,10 @@ app.get('/listings', (req, res) => {
   res.render('listings');
 });
 
+app.get('/listings/:index', (req, res) => {
+  res.render('coming-soon');
+});
+
 const server = app.listen(process.env.PORT || 3000, () => {
   console.log(`Example app listening on port ${server.address().port}!`);
 });
