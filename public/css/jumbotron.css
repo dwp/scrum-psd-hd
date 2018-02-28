@@ -93,7 +93,8 @@ main.listings, main.movie-details {
   width: 64px;
   height: 64px;
   background-size: contain;
-  text-indent: -99999px
+  text-indent: -99999px;
+  background-repeat: no-repeat;
 }
 
 .cert-12a { background-image: url(/assets/cert_12a.png); }
