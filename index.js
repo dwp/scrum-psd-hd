@@ -19,6 +19,10 @@ app.get('/listings', (req, res) => {
   res.render('listings');
 });
 
+app.get('/new-releases', (req, res) => {
+  res.render('new-releases');
+});
+
 app.get('/listings/:index', (req, res) => {
   const movieId = parseInt(req.params.index);
   if (isNaN(movieId) || movieId < 0 || movieId > 3) {
