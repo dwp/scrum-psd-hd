@@ -1,0 +1,53 @@
+{% extends "layouts/default.html" %}
+
+{% block mainclass %}movie-details{% endblock %}
+
+{% block main %}
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="jumbotron movie-details">
+  <div class="container" style="background-image: url(/assets/PlackPantherFull.jpg);">
+    <h1 class="display-3">Black Panther</h1>
+    <div class="cert cert-12a">cert</div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <span class="badge badge-info">Runtime: 134min</span>
+      <span class="badge badge-success">Director: Ryan Coogler</span>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <p>
+        After the events of Captain America: Civil War, King T'Challa returns home to the reclusive, technologically advanced
+        African nation of Wakanda to serve as his country's new leader. However, T'Challa soon finds that he is challenged for
+        the throne from factions within his own country. When two foes conspire to destroy Wakanda, the hero known as Black Panther
+        must team up with C.I.A. agent Everett K. Ross and members of the Dora Milaje, Wakandan special forces, to prevent Wakanda
+        from being dragged into a world war.
+      </p>
+      <p>
+        <b>Staring:</b>
+        Chadwick Boseman    as    T'Challa / Black Panther
+        Michael B. Jordan    Michael B. Jordan    as    Erik Killmonger
+        Lupita Nyong'o    Lupita Nyong'o    as    Nakia
+        Danai Gurira    Danai Gurira    as    Okoye
+        Martin Freeman    Martin Freeman    as    Everett K. Ross
+      </p>
+    </div>
+    <div class="col">
+      <p>
+        <b>Show times:</b>
+      </p>
+      <ul>
+        <li>17:20pm</li>
+        <li>18:35pm</li>
+        <li>19:00pm</li>
+        <li>20:50pm</li>
+      </ul>
+    </div>
+  </div>
+</div>
+{% endblock %}
