@@ -14,6 +14,10 @@ app.get('/', (req, res) => {
   res.render('home');
 });
 
+app.get('/listings', (req, res) => {
+  res.render('listings');
+});
+
 const server = app.listen(process.env.PORT || 3000, () => {
   console.log(`Example app listening on port ${server.address().port}!`);
 });

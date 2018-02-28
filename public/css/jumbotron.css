@@ -5,7 +5,7 @@ body {
 
 .jumbotron {
   background-color: transparent;
-  height: 520px;
+  height: 450px;
 }
 
 main {
@@ -20,4 +20,9 @@ main {
 
 .col-md-4:hover {
   background-color: rgba(255, 255, 255, 1);
+}
+
+.jumbotron.listings .container {
+  background: rgba(255, 255, 255, 0.70);
+  height: 100%;
 }
