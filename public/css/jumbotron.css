@@ -33,6 +33,9 @@ main {
 
 main.listings {
   background-image: url(/assets/qacv5-dark.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: black;
 }
 
 
