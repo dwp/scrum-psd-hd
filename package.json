@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/dwp/scrum-psd-hd#readme",
   "dependencies": {
-    "express": "^4.16.2",
+    "express": "^4.19.2",
     "nunjucks": "^3.1.2"
   }
 }
